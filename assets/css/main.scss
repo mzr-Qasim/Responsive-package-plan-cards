@@ -44,6 +44,11 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+
+
+    h3{
+        letter-spacing: $letter-spacing-small;
+    }
 }
 
 
@@ -57,12 +62,31 @@
     flex-grow: 1;
     border-radius: 0 0 1rem 1rem;
     .title-info{
+        font-size: calc(1rem + .2vw);
+        font-weight: 600;
         margin-bottom: 2rem;
     }
     .features-list{
         li{
             &:not(:last-child){
                 margin-bottom: 1rem;
+            }
+            p{
+                position: relative;
+                font-size: calc(.8rem + .2vw);
+                font-weight: 400;
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: -1rem;
+                    transform: translate(-50%,-50%);
+                    background-color: lightblue;
+                    width: .8rem;
+                    height: .8rem;
+                    border-radius: 50%;
+                }
             }
         }
     }
@@ -80,7 +104,7 @@
         border-radius: .5rem;
         font-weight: 600;
         font-size: calc(.8rem + .2vw);
-        letter-spacing: 2px;
+        letter-spacing: $letter-spacing-large;
         
     }
 }

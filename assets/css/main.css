@@ -12031,6 +12031,9 @@ a {
   justify-content: space-between;
   padding: 1rem;
 }
+.packages-card-heading h3, .packages-card-heading .h3 {
+  letter-spacing: 1px;
+}
 
 .packages-inner {
   padding: 1rem 1rem 8rem 1rem;
@@ -12043,10 +12046,28 @@ a {
   border-radius: 0 0 1rem 1rem;
 }
 .packages-inner .title-info {
+  font-size: calc(1rem + 0.2vw);
+  font-weight: 600;
   margin-bottom: 2rem;
 }
 .packages-inner .features-list li:not(:last-child) {
   margin-bottom: 1rem;
+}
+.packages-inner .features-list li p {
+  position: relative;
+  font-size: calc(0.8rem + 0.2vw);
+  font-weight: 400;
+}
+.packages-inner .features-list li p::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -1rem;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
 }
 .packages-inner .contact-us-button {
   position: absolute;
