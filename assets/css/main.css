@@ -12021,7 +12021,7 @@ a {
   padding: 1rem;
   min-height: 100%;
   min-width: 100%;
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
 }
@@ -12037,8 +12037,8 @@ a {
 
 .packages-inner {
   padding: 1rem 1rem 8rem 1rem;
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -12064,7 +12064,7 @@ a {
   top: 50%;
   left: -1rem;
   transform: translate(-50%, -50%);
-  background-color: lightblue;
+  background-color: #22b4e9;
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
@@ -12073,8 +12073,8 @@ a {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  background-color: blue;
-  color: white;
+  background-color: #3fb2db;
+  color: #ffffff;
   padding: 0.8rem;
   border-radius: 0.5rem;
   font-weight: 600;
