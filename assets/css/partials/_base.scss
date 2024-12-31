@@ -1,0 +1,40 @@
+body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+h1, h2, h3, h4, p, figure{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+a{
+    text-decoration: none;
+
+}
+
+
+.bronze-card{
+    background: linear-gradient(90deg, rgba(203,79,26,1) 0%, rgba(195,110,110,1) 100%);
+}
+
+.silver-card{
+    background: linear-gradient(90deg, rgba(157,156,156,1) 0%, rgba(233,230,230,1) 100%);
+}
+
+.gold-card{
+    background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(184,134,11,1) 100%);
+}
+
+.diamond-card{
+    background: linear-gradient(90deg, rgba(153,236,255,1) 0%, rgba(118,214,249,1) 100%);
+
+}
